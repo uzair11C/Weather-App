@@ -1,10 +1,13 @@
 import React from 'react'
+import HomeBanner from './ComponentsOfHome/HomeBanner'
+import WeatherBoxes from './ComponentsOfHome/WeatherBoxes'
 
 function Home(){
     return(
-        <div>
-        <h1>The home page</h1>
-        </div>
+        <section>
+            <HomeBanner />
+            <WeatherBoxes />
+        </section>
     )
 }
 

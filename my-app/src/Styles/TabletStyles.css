@@ -26,5 +26,52 @@
     .navbar button 
     {
         background-color: deeppink;
+        color: #fff;
+        padding: 10px;
+    }
+
+    #home-section{
+        width: 100%;
+        height:350px;
+        background-image: url(https://en.baaghitv.com/wp-content/uploads/2020/07/new-history-forecast-bulk.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #h-s-d
+    {
+        flex: 1;
+        background-color: rgba(27, 27, 27, 0.664);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #h-s-d h1
+    {
+        color: #fff;
+        font-size: 65px;
+    }
+
+    #h-s-d span
+    {
+        display: block;
+        color: rgb(177, 214, 214);
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    #w-b-s
+    {
+        width: 100%;
+        height:1200px;
+        background-color: aqua;
     }
 }

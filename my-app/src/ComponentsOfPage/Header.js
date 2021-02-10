@@ -21,7 +21,7 @@ function Header(){
     return(
         <nav className={cheader ? "cheader active navbar navbar-expand-md" : "cheader navbar navbar-expand-md"}>
     <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
     </button>
             
     <div class="collapse navbar-collapse" id="main-navigation">
