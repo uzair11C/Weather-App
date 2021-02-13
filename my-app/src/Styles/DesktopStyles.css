@@ -76,7 +76,6 @@
 
     .w-boxes-div
     {
-        background-color: aqua;
         width: 100%;
         height: 300px;
         padding: 20px;
@@ -85,8 +84,7 @@
     #w-b-s
     {
         width: 100%;
-        height:600px;
-        background-color: aqua;
+        height:800px;
         padding: 50px;
         display: flex;
         justify-content: center;
@@ -98,31 +96,54 @@
         flex: 1;
         width: 100%;
         height: 100%;
-        background-color: purple;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 20px;
     }
 
     #w-left{
         flex: 1;
         width: 100%;
         height: 100%;
-        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #w-right{
         flex: 1;
         width: 100%;
         height: 100%;
-        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-    .w-boxes{
+    .weather-boxes{
+        flex: 1;
         width: 100%;
         height: 100%;
-        background-color: aqua;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        border: 5px double red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .w-b-o{
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(27, 27, 27, 0.4);
     }
 }

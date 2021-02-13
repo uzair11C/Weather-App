@@ -30,7 +30,7 @@ function Header(){
                 <Link className="nav-link" to='/'><h2>Home</h2></Link>
             </li>
             <li class="nav-item">
-                <Link className="nav-link" to = '/about'><h2>About</h2></Link>
+                <Link className="nav-link" to = '/about'><h2>About The Page</h2></Link>
             </li>
         </ul>
     </div>
