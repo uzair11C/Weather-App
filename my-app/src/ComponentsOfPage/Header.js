@@ -20,20 +20,20 @@ function Header(){
 
     return(
         <nav className={cheader ? "cheader active navbar navbar-expand-md" : "cheader navbar navbar-expand-md"}>
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-            
-    <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <Link className="nav-link" to='/'><h2>Home</h2></Link>
-            </li>
-            <li class="nav-item">
-                <Link className="nav-link" to = '/about'><h2>About The Page</h2></Link>
-            </li>
-        </ul>
-    </div>
+            <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <i className="fas fa-bars"></i>
+            </button>
+                    
+            <div className="collapse navbar-collapse" id="main-navigation">
+                <ul className="navbar-nav">
+                    <li className="nav-item">
+                        <Link className="nav-link" to='/'><h2>Home</h2></Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to = '/about'><h2>About The Page</h2></Link>
+                    </li>
+                </ul>
+            </div>
         </nav>
     )
 }

@@ -13,7 +13,7 @@
     .navbar h2
     {
         text-decoration: none;
-        color: rgba(204, 1, 255, 0.884);
+        color: rgb(255, 255, 255);
         font-size: 30px;
         font-family: 'Roboto',sans-serif;
         margin-right: 50px;
@@ -74,76 +74,71 @@
         margin-top: 20px;
     }
 
-    .w-boxes-div
-    {
-        width: 100%;
-        height: 300px;
-        padding: 20px;
-    }
-
     #w-b-s
     {
         width: 100%;
-        height:800px;
+        height:1800px;
         padding: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        overflow: hidden;
+        margin-top: 30px;
     }
 
-    #w-b-d
+    .city-choose
     {
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        font-size: 50px;
+        color: blueviolet;
+        text-align: center;
     }
 
-    #w-left{
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    #w-right{
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .weather-boxes{
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        border-radius: 20px;
-        margin-bottom: 10px;
-        border: 5px double red;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .bcon
+    {
+        padding: 0;
+        padding-right: 10px;
+        margin-bottom: 25px;
         overflow: hidden;
     }
 
-    .w-b-o{
-        flex: 1;
+    .w-box
+    {
+        border-radius: 20px;
+        border: 2px solid rgb(29, 150, 206);
         width: 100%;
         height: 100%;
-        background-color: rgba(27, 27, 27, 0.4);
+        overflow: hidden;
+    }
+
+    .w-box img
+    {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .box-label
+    {
+        position: absolute;
+        width: 98%;
+        height: 100%;
+        background-color: rgba(43, 42, 42, 0.575);
+        border-radius: 20px;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-label h2
+    {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 64px;
+    }
+
+    .w-box:hover img
+    {
+        transform: scale(1.2);
+        transition: 0.6s ease;
     }
 }
