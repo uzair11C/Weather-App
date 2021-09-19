@@ -3,16 +3,17 @@ import Header from './ComponentsOfPage/Header'
 import Home from './ComponentsOfPage/Home'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import About from './ComponentsOfPage/About';
-import IslamabadWeather from './ComponentsOfPage/WeatherDisplays/IslamabadWeather';
-import KarachiWeather from './ComponentsOfPage/WeatherDisplays/KarachiWeather';
-import PeshawarWeather from './ComponentsOfPage/WeatherDisplays/PeshawarWeather';
-import LahoreWeather from './ComponentsOfPage/WeatherDisplays/LahoreWeather';
-import QuettaWeather from './ComponentsOfPage/WeatherDisplays/QuettaWeather';
-import GilgitWeather from './ComponentsOfPage/WeatherDisplays/GilgitWeather';
-import MultanWeather from './ComponentsOfPage/WeatherDisplays/MultanWeather';
-import FaisalabadWeather from './ComponentsOfPage/WeatherDisplays/FaisalabadWeather';
-import SukkurWeather from './ComponentsOfPage/WeatherDisplays/SukkurWeather';
-import JhelumWeather from './ComponentsOfPage/WeatherDisplays/JhelumWeather';
+import IslamabadWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/IslamabadWeather';
+import KarachiWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/KarachiWeather';
+import PeshawarWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/PeshawarWeather';
+import LahoreWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/LahoreWeather';
+import QuettaWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/QuettaWeather';
+import GilgitWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/GilgitWeather';
+import MultanWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/MultanWeather';
+import FaisalabadWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/FaisalabadWeather';
+import SukkurWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/SukkurWeather';
+import JhelumWeather from './ComponentsOfPage/ComponentsOfHome/WeatherDisplays/JhelumWeather';
+import Footer from './ComponentsOfPage/Footer';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route exact path = "/sukkur" component = {SukkurWeather} />
               <Route exact path = "/jhelum" component = {JhelumWeather} />
             </Switch>
+          <Footer />
       </div>
     </Router>
   );

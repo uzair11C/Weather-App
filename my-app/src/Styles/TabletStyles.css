@@ -136,6 +136,110 @@
         background-size: cover;
     }
 
+    #w-d-p-clear
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://images.pond5.com/sun-rising-clear-sky-4k-footage-046065667_iconl.jpeg");
+        background-size: cover;
+    }
+
+    #w-d-p-haze
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://gray-wmtv-prod.cdn.arcpublishing.com/resizer/Zk72GNJIiGidqAcQ1szc9q_pyy0=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/GFSLYD7DLVHGZD4A2WICRUX4NA.jpg");
+        background-size: cover;
+    }
+
+    #w-d-p-drizzle
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://www.thenews.com.pk//assets/uploads/updates/2018-02-11/279650_1433049_updates.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-clouds
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://ih0.redbubble.net/image.38584557.1469/flat,800x800,075,f.u2.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-snow
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://coolthemestores.com/wp-content/uploads/2020/11/winter-snow-feature.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-thunderstorm
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://wallpaperaccess.com/full/125024.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-rain
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://cdn.wallpapersafari.com/77/24/bQOoxa.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-foggy
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701709855.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-dust
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://www.brandsynario.com/wp-content/uploads/dust-storm-lead.jpg");
+        background-size: cover;
+    }
+
+    .w-d-p-haze-smoke
+    {
+        width: 100%;
+        height: 500px;
+        background-image: url("https://www.spc.noaa.gov/publications/corfidi/fig1jpgmed.jpg");
+        background-size: cover;
+    }
+
+    .loader
+    {
+        width: 100%;
+        height: 500px;
+        background-color: rgb(2, 29, 116);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-atom
+    {
+        font-size: 200px;
+        color: rgb(62, 196, 173);
+    }
+
+    .loader h2
+    {
+        font-family: monospace;
+        font-size: 47px;
+        color: #fff;
+    }
+
     #city
     {
         color: #fff;
@@ -152,5 +256,10 @@
     {
         color: #fff;
         font-size: 80px;
+    }
+
+    #footer-text a 
+    {
+        color: aqua;
     }
 }
