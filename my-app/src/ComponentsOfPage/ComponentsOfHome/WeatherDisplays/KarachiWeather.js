@@ -101,8 +101,10 @@ function KarachiWeather()
                     'w-d-p-dust'
                 :
                 weather?.weather && weather.weather[0].main == 'Haze'
+                                        || 
+                weather?.weather && weather.weather[0].main == 'Smoke'
                 ?
-                    'w-d-p-haze'
+                    'w-d-p-haze-smoke'
 
                 :'w-d-p'
             }>
