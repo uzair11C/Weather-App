@@ -19,6 +19,7 @@ function IslamabadWeather()
         const weather = await data.json();
 
         setWeather(weather);
+        console.log(weather)
         setLoading(false);
     } 
 

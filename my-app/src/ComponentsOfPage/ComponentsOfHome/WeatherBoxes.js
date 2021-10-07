@@ -22,7 +22,12 @@ function WeatherBoxes(){
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://mosqpedia.org/img/cache/largeimage/hkqaPdO0HuPiLzj7Cu4iQaoNhvzpNhd7Gzc2gbBp)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/islamabad">
@@ -30,11 +35,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src='https://mosqpedia.org/img/cache/largeimage/hkqaPdO0HuPiLzj7Cu4iQaoNhvzpNhd7Gzc2gbBp' alt='fm'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/d/d1/Jinnah_Mausoleum.JPG)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/karachi">
@@ -42,11 +51,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Jinnah_Mausoleum.JPG' alt='mq'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Khyber_pass.jpeg/220px-Khyber_pass.jpeg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/peshawar">
@@ -54,11 +67,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Khyber_pass.jpeg/220px-Khyber_pass.jpeg' alt='pesh'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://images.mapsofworld.com/allwonders/minar-e-pakistan.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/lahore">
@@ -66,11 +83,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://images.mapsofworld.com/allwonders/minar-e-pakistan.jpg' alt='mp'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://balochistan.gov.pk/wp-content/uploads/2019/05/explore-sample.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/quetta">
@@ -78,11 +99,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://balochistan.gov.pk/wp-content/uploads/2019/05/explore-sample.jpg' alt='zr'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Gilgit_City_a_View_from_Gilgit_serena_hotel.jpg/270px-Gilgit_City_a_View_from_Gilgit_serena_hotel.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/gilgit">
@@ -90,11 +115,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Gilgit_City_a_View_from_Gilgit_serena_hotel.jpg/270px-Gilgit_City_a_View_from_Gilgit_serena_hotel.jpg' alt='gil'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tomb_of_Shah_Rukn-e-Alam_Multan.jpg/220px-Tomb_of_Shah_Rukn-e-Alam_Multan.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/multan">
@@ -102,11 +131,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tomb_of_Shah_Rukn-e-Alam_Multan.jpg/220px-Tomb_of_Shah_Rukn-e-Alam_Multan.jpg' alt='mult'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://1.bp.blogspot.com/-BGhe3DmFUnA/YQggTEZSqCI/AAAAAAAABsg/n66RkQzXeS4XQjj9g86Lflb_ZnBFITkcgCLcBGAsYHQ/s2000/Faisalabad.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/faisalabad">
@@ -114,11 +147,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://1.bp.blogspot.com/-BGhe3DmFUnA/YQggTEZSqCI/AAAAAAAABsg/n66RkQzXeS4XQjj9g86Lflb_ZnBFITkcgCLcBGAsYHQ/s2000/Faisalabad.jpg' alt='faisl'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Rohri.jpg/270px-Rohri.jpg)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/sukkur">
@@ -126,11 +163,15 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Rohri.jpg/270px-Rohri.jpg' alt='sukkur'/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 bcon">
-                            <div className="w-box">
+                            <div style={
+                                {
+                                    backgroundImage:"url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Jhelum_River_Bridge.JPG/220px-Jhelum_River_Bridge.JPG)",
+                                    backgroundSize:"cover"
+                                }
+                                    } className="w-box">
                                 <div className="box-label">
                                     <h2>
                                         <Link style={linkStyle} to = "/jhelum">
@@ -138,7 +179,6 @@ function WeatherBoxes(){
                                         </Link>
                                     </h2>
                                 </div>
-                                <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Jhelum_River_Bridge.JPG/220px-Jhelum_River_Bridge.JPG' alt='jhelum'/>
                             </div>
                         </div>
                     </div>

@@ -72,10 +72,17 @@
     #w-b-s
     {
         width: 100%;
-        height:3400px;
+        height:3435px;
         padding: 10px;
         overflow: hidden;
         margin-top: 30px;
+    }
+
+    .city-choose
+    {
+        font-size: 45px;
+        color: blueviolet;
+        text-align: center;
     }
 
     .bcon
@@ -91,22 +98,15 @@
         border-radius: 20px;
         border: 2px solid rgb(29, 150, 206);
         width: 100%;
-        height: 100%;
+        height: 300px;
         overflow: hidden;
         margin-left: 5px;
     }
 
-    .w-box img
+    .box-label
     {
         position: relative;
         width: 100%;
-        height: 300px;
-    }
-
-    .box-label
-    {
-        position: absolute;
-        width: 98%;
         height: 100%;
         background-color: rgba(43, 42, 42, 0.575);
         border-radius: 20px;

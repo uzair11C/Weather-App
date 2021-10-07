@@ -18,7 +18,7 @@ function Footer()
             <div style={footerStyle} className="container-fluid">
                 <h3 style={{textAlign:"center"}} id = "footer-text">
                     Credit to &nbsp;
-                    <a href = "https://openweathermap.org/">OpenWeather (TM)</a>&nbsp;
+                    <a target="_blank" href = "https://openweathermap.org/">OpenWeather (TM)</a>&nbsp;
                     For the Weather Data
                 </h3>
             </div>
